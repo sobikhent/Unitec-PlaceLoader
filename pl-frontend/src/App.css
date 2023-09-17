@@ -1,0 +1,60 @@
+/* App.css */
+/* Your existing styles */
+
+.App {
+  min-height: 100vh; /* Fills the full height of the screen */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-wrapper {
+  width: 100%;
+  max-width: 400px;  /* You can adjust this as needed */
+}
+.form-control {
+  height: 50px;  /* You can adjust this as needed */
+  width: 80%;  /* You can adjust this as needed */
+  margin: 0 auto;
+}
+
+.table-wrapper {
+  width: 100%;
+  max-width: 100%;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table-container {
+  overflow-y: auto;
+  max-height: 400px; /* Adjust height as needed */
+  width: 75%;
+}
+
+.export-button-container {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.search-button {
+  display: block;
+  margin: 15px auto;
+}
+
+.export-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.export-button:hover {
+  background-color: #0056b3;
+}
